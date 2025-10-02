@@ -9,7 +9,21 @@ import SwiftUI
 
 struct Images: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("ch")
+            //.renderingMode(.template)
+            .resizable()
+            //.aspectRatio(contentMode: .fit)
+            .scaledToFit()
+            .frame(width: 300, height: 200)
+            .foregroundColor(.green)
+            //.clipped()
+            //.cornerRadius(150)
+            //.clipShape(
+            //    Circle()
+            //    RoundedRectangle(cornerRadius: 25.0)
+            //    Ellipse()
+            //    Circle()
+            //)
     }
 }
 
