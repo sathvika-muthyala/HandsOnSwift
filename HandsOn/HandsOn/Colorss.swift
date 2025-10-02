@@ -9,7 +9,11 @@ import SwiftUI
 
 struct Colorss: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 20).fill(
+//            Color.brown
+//            Color(UIColor.systemBrown)
+            Color("CustomColor")
+        ).frame(width: 200, height: 300).shadow(radius: 10, x: 0, y:20)
     }
 }
 
