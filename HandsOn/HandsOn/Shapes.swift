@@ -10,7 +10,7 @@ import SwiftUI
 struct Shapes: View {
     var body: some View {
         ZStack {
-            Circle().fill(Color.pink).stroke(Color.black, lineWidth: 2)
+            Circle().fill(Color.pink).stroke(Color.black, style: StrokeStyle(lineWidth: 10, lineCap: .round,dash: [30]))
             Text("Sathvika").font(.largeTitle).foregroundStyle(Color.white)
         }
         
