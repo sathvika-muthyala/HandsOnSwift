@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Text BootCamp").font(Font.largeTitle).underline(true, color: Color.red).italic(true)
+            Text("Text BootCamp Text BootCamp Text BootCamp Text BootCamp Text BootCamp Text BootCamp Text BootCamp").font(.body).underline(true, color: .red).italic().multilineTextAlignment(.center).baselineOffset(10)
         }
         .padding()
     }
