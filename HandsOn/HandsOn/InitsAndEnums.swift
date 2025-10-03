@@ -28,7 +28,7 @@ struct InitsAndEnums: View {
         
     }
     var body: some View {
-        Circle().fill(backgroundColor).frame(width: 200, height: 200).overlay(Text(title).foregroundColor(.white).font(.largeTitle))
+        Circle().fill(backgroundColor).frame(width: 180, height: 180).overlay(Text(title).foregroundColor(.white).font(.largeTitle))
     }
 }
 
